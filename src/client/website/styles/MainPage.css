@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,600&display=swap');
+
+.mainPage {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.text {
+    margin: 30px 0 0;
+    text-align: center;
+    color: #e5e5e5;
+}
+
+#name {
+    font-size: 3.5rem;
+}
+
+#description {
+    margin: 30px auto auto;
+    font-size: 1rem;
+    max-width: 600px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .app .about {
+        align-items: flex-start;
+        margin-top: 2em;
+    }
+}
