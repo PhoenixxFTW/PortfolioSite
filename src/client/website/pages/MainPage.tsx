@@ -1,6 +1,6 @@
 import '../styles/MainPage.css'
-import {NavigationBar} from "../components/NavigationBar";
 import {About} from "../components/About";
+import {Projects} from "../components/Projects";
 
 export const MainPage = () => {
     return (
@@ -14,6 +14,7 @@ export const MainPage = () => {
                 creating fullstack applications.
             </p>*/}
             <About/>
+            <Projects/>
         </div>
     )
 }
