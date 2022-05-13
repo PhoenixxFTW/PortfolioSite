@@ -12,6 +12,7 @@
     text-align: center;
     box-shadow: var(--shadow);
     transition: transform 0.2s linear;
+    color: #e5e5e5;
 }
 
 .project:hover {
@@ -33,14 +34,12 @@
     margin: 0.5em;
     font-weight: 500;
     font-size: 0.8rem;
-    color: var(--clr-fg-alt);
 }
 
 .project_stack > li {
     margin: 0.5em;
     font-weight: 500;
     font-size: 0.8rem;
-    color: var(--clr-fg-alt);
 }
 
 .project .link--icon {
