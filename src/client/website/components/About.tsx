@@ -11,7 +11,7 @@ export const About = () => {
                 creating fullstack applications. Hit me up 🤙
             </p>
 
-            <div className='about__contact center'>
+            <div className='about_contact center'>
                 {/*{
                     resume &&
                     (

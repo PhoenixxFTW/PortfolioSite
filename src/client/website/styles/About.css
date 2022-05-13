@@ -10,10 +10,11 @@
 }
 
 #name {
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
-.position {
+#position {
+    font-size: 2rem;
     margin-top: 1.2em;
 }
 
@@ -23,7 +24,7 @@
 }
 
 .description,
-.about__contact { /* This is for the resume buttons and shit */
+.about_contact { /* This is for the resume buttons and shit */
     margin-top: 2.4em;
 }
 
@@ -39,5 +40,11 @@
     .app .about {
         align-items: flex-start;
         margin-top: 2em;
+    }
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 2.6rem;
     }
 }

@@ -3,6 +3,7 @@
 html {
   background-color: rgb(44, 44, 44);
 }
+
 .app {
   font-family: 'Roboto Flex', sans-serif;
   line-height: 1.5;
@@ -39,12 +40,14 @@ main {
   margin-top: 5em;
 }
 
+/*
 .section_title {
   text-align: center;
   margin-bottom: 1em;
   text-transform: uppercase;
   color: #e5e5e5;
 }
+*/
 
 .center {
   display: flex;

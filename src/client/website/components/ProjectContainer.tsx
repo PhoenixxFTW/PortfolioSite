@@ -7,7 +7,7 @@ export const ProjectContainer : FC<{ readonly project: ProjectObject}> = (props)
 
     return (
         <div className='project'>
-        <h3>{props.project.getName}</h3>
+        <h3 id='project_name'>{props.project.getName}</h3>
 
         <p className='project_description'>{props.project.getDescription}</p>
         {
