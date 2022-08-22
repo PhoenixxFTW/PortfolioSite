@@ -25,11 +25,7 @@ export const ProjectContainer : FC<{ readonly project: ProjectObject}> = (props)
         }
 
         {props.project.getSource && (
-            <a
-                href={props.project.getSource}
-                aria-label='source code'
-                className='link link--icon'
-            >
+            <a href={props.project.getSource} aria-label='source code' className='link link--icon'>
                 <GitHubIcon />
             </a>
         )}

@@ -5,15 +5,15 @@ import {ProjectObject} from "../objects/ProjectObject";
 export const Projects = () => {
     const projects = [
         {
-            name: "RaptureAPI",
-            source: "https://github.com/PhoenixxFTW/RaptureAPI",
-            description: "A custom Among Us Server made in Java. This was originally meant to be an entire API along with a custom server",
+            name: "Rapture Framework",
+            source: "https://github.com/PhoenixxFTW/RaptureFramework",
+            description: "A Java NIO socket based game server framework built using Netty. Used to quickly create custom servers for multiplayer games",
             stack: ['Java', 'Netty', 'Log4J']
         },
         {
             name: "Voxel API",
             source: "https://github.com/PhoenixxFTW",
-            description: "A voxel model maker built into Minecraft. Allows players to create models by building them with blocks in the game and animate them ingame as well.",
+            description: "A voxel model engine built straight into Minecraft. Allows players to create models by building them with blocks in the game and animate them in-game as well.",
             stack: ['Java', 'Forge', 'ProGuard']
         },
         {

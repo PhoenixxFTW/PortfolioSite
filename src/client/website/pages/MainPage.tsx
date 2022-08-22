@@ -5,6 +5,7 @@ import {Projects} from "../components/Projects";
 export const MainPage = () => {
     return (
         <div className={"mainPage"}>
+            <div className="spacer layer1" />
             {/*<NavigationBar/>
             <h1 id={"name"} className={"text"}>Hi, I'm Jay.</h1>
             <h1 id={"position"} className={"text"}>A Full-Stack Developer</h1>
@@ -15,6 +16,7 @@ export const MainPage = () => {
             </p>*/}
             <About/>
             <Projects/>
+            <div className="spacer layer2" />
         </div>
     )
 }
