@@ -1,12 +1,17 @@
 import React from 'react';
 import './App.css';
 import {MainPage} from "./website/pages/MainPage";
+import { BrowserRouter as Router, Route, Routes  } from 'react-router-dom';
+import {ProjectView} from "./website/components/ProjectView";
 
 function App() {
   return (
-    <div className="App">
-      <MainPage/>
-    </div>
+    <Router>
+        <Routes>
+            <Route path="/" element={<MainPage />}/>
+            <Route path="/ProjectView" element={<ProjectView />}/>
+        </Routes>
+    </Router>
   );
 }
 
