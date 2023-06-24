@@ -16,16 +16,17 @@ export const ProjectContainer : FC<{ readonly project: ProjectObject}> = (props)
                     props.project.stack && (
                     <ul className='project_stack'>
                         {
-                            props.project.stack.map((item) => (
-                            <li key={props.project.stack.toString()} className='stack-item'>
-                                {item}
-                            </li>
-                        ))
+                            props.project.stack.map((item, index) => (
+                                <li key={index} /*key={props.project.stack.toString()}*/ className='stack-item'>
+                                    {item}
+                                </li>
+                            ))
                         }
                     </ul>
-                )
+                    )
                 }
 
+                {/*FIXME There's an error here: validateDOMNesting(...): <a> cannot appear as a descendant of <a>.*/}
                 {props.project.source && (
                     <a href={props.project.source} aria-label='source code' className='link link--icon'>
                         <GitHubIcon />

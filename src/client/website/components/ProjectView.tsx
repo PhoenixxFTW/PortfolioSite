@@ -1,7 +1,6 @@
 import '../styles/ProjectView.css'
 import { useLocation } from "react-router-dom";
-import {ProjectList, ProjectObject} from "../objects/ProjectList";
-import {ProjectContainer} from "./ProjectContainer";
+import { ProjectObject } from "../objects/ProjectList";
 
 export const ProjectView = () => {
     const location = useLocation();
@@ -11,7 +10,7 @@ export const ProjectView = () => {
 
     return (
         <div className='project-view'>
-            <h1 id='name' className='text'>{project.name}.</h1>
+            <h1 id='name' className='text'>{project.name}</h1>
             <p id='stack' className='text'>{project.stack.toString()}</p>
             <p id='description' className='text'>{project.description}</p>
             <div className='images_grid'>
