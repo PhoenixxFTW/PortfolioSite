@@ -15,7 +15,7 @@ export const ProjectList:ProjectObject[] = [
     {
         name: "Hydra IDE",
         source: "https://github.com/PhoenixxFTW/Hydra",
-        description: "A custom IDE designed to make correlations and parameterization easier and more efficient for LoadRunner Scripts.",
+        description: "A custom IDE designed to make correlations and parameterization easier and more efficient for LoadRunner Vugen Scripts.",
         stack: ['Java', 'JavaFX', 'JFoenix', "RichTextFX"],
         resources: [
             {
@@ -76,6 +76,14 @@ export const ProjectList:ProjectObject[] = [
         source: "https://github.com/PhoenixxFTW",
         description: "A voxel model engine built straight into Minecraft. Allows players to create models by building them with blocks in the game and animate them in-game as well.",
         stack: ['Java', 'Forge', 'ProGuard'],
+        resources: []
+    },
+    {
+        name: "DayM (1.7.10 / 1.16)",
+        source: "https://gitlab.com/PhoenixxFTW",
+        description:
+            "A popular Minecraft 1.7.10 mod based off of DayZ",
+        stack: ['Java', 'Forge', 'MySQL'],
         resources: []
     },
     {
