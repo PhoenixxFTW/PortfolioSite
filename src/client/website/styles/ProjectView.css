@@ -31,9 +31,10 @@
     grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
     grid-gap: 2em;
     margin: auto;
+    grid-row-gap: 10px;
 }
 
 .image {
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 200px;
+    max-height: 200px;
 }
